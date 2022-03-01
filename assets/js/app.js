@@ -54,6 +54,7 @@ window.addEventListener("keyup", function(e) {
 
         todolist(input);
         output.innerHTML += todolist(input.value) + "<br> ";
+        input.value = "";
 
     }
 });
